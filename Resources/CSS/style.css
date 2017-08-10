@@ -170,11 +170,11 @@ footer {
     display: none;
   }
 
-  .mobile-menu {
+  .container-menumobile {
     display: contents;
   }
 
-  .mobile-menu > .item {
+  .container-menumobile > .item {
     text-align: center;
   }
 
