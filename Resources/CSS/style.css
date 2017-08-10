@@ -9,7 +9,7 @@ body {
 }
 
 
-.header {
+.header-container{
   background-color: black;
   color: #FFFFFF;
 }
@@ -130,11 +130,11 @@ nav >.container-menu >.item {
   padding-bottom: 3rem;
 }
 
-.bizinfo-container > .bizinfo {
+.bizinfo-container > .info {
   width: 35%;
 }
 
-.other-info-container > .bizinfo > h3 {
+.bizinfo-container > .info > h3 {
   background-color: #000;
   display: block;
   padding-top: 1rem;
@@ -162,7 +162,7 @@ footer {
   }
 
 
-  .product {
+  .pen {
     width: 47%;
   }
 
@@ -192,7 +192,7 @@ footer {
     height: 15rem;
   }
 
-  .site-bannecontainer {
+  .site-bannercontainer {
     padding-top: 10rem;
   }
 
@@ -221,7 +221,7 @@ footer {
     flex-direction: column;
   }
 
-  .bizinfo-container > .bizinfo {
+  .bizinfo-container > .info {
     width: 90%;
     text-align: center;
     padding-bottom: 0.5rem;
